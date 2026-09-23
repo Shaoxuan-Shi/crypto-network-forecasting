@@ -1,0 +1,35 @@
+# Operating-system and editor files
+.DS_Store
+.Rhistory
+.RData
+.Rproj.user/
+__pycache__/
+*.py[cod]
+
+# Downloaded and generated data
+data/raw/
+data/logs/
+data/processed/*
+data/interim/*
+!data/processed/.gitkeep
+!data/interim/.gitkeep
+
+# Generated experiment artifacts
+results/logs/
+results/demo/
+results/checkpoints/
+results/forecast_predictions_*.csv
+
+# Local environments and credentials
+.env
+.env.*
+!.env.example
+renv/library/
+r_libs/
+*.pem
+*.key
+
+# Temporary files
+tmp/
+*.tmp
+*.zip

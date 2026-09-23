@@ -1,0 +1,11 @@
+model,network_feature_set,delta_auc,auc_ci_low,auc_ci_high,delta_balanced_accuracy,bacc_ci_low,bacc_ci_high,bootstrap_resamples,block_hours
+glmnet_logistic,node_network,-0.000338,-0.001,0.001,-0.000158,-0.003,0.002,200,24
+glmnet_logistic,aggregate_signals,0.000553,0.000,0.001,0.000641,-0.002,0.004,200,24
+glmnet_logistic,pair_signals,0.000910,-0.002,0.004,0.000443,-0.003,0.005,200,24
+glmnet_logistic,full_network,-0.001247,-0.004,0.001,-0.000533,-0.003,0.002,200,24
+glmnet_logistic,asset_specific_signals,0.006483,0.001,0.014,0.003278,-0.003,0.012,200,24
+random_forest,node_network,0.001115,-0.008,0.009,0.002157,-0.008,0.009,200,24
+random_forest,aggregate_signals,-0.003763,-0.013,0.006,-0.001328,-0.010,0.006,200,24
+random_forest,pair_signals,0.004236,-0.005,0.013,0.006671,-0.002,0.015,200,24
+random_forest,full_network,0.000536,-0.008,0.010,0.002029,-0.006,0.009,200,24
+random_forest,asset_specific_signals,-0.003016,-0.012,0.006,-0.000194,-0.007,0.007,200,24

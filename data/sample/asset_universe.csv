@@ -1,0 +1,13 @@
+asset,symbol,quote_asset,exchange,market_type
+BTC,BTCUSDT,USDT,Binance,spot
+ETH,ETHUSDT,USDT,Binance,spot
+XRP,XRPUSDT,USDT,Binance,spot
+BNB,BNBUSDT,USDT,Binance,spot
+SOL,SOLUSDT,USDT,Binance,spot
+TRX,TRXUSDT,USDT,Binance,spot
+DOGE,DOGEUSDT,USDT,Binance,spot
+ADA,ADAUSDT,USDT,Binance,spot
+LINK,LINKUSDT,USDT,Binance,spot
+LTC,LTCUSDT,USDT,Binance,spot
+AVAX,AVAXUSDT,USDT,Binance,spot
+DOT,DOTUSDT,USDT,Binance,spot
